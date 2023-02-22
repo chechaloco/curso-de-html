@@ -1,0 +1,2454 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>curso de html</title><!--este es un archivo para la guia de este curso de html-->
+    </head>
+    <body><!--lesson 1.1-->
+        <h1>*****OVERVIEW*****</h1>
+        <hr>
+        <hr>
+        <h1><ins>1.1 lesson /*What is HTML?*/</ins></h1>
+        <P align="center">HTML is used for creating websites</P>
+        
+        <h2>**text paragraphs**</h2>
+        <p>html is based on tags. You can tell the web browser that you want to include a paragraph of text in your web page by enclosing the text in paragraph tags !p>.</p>
+        <button><p>^p>I'm a text paragraph^/p></p></button>
+        
+        <h2>**Opening and closing tags**</h2>
+        <p>The paragraph elemennt requires both opening and closing tags.
+            <br>^p> is the opening paragraph tag. It defines the start of the element.
+            <br>^/p> is the closing tag. which is used to define the end of the element with the forward slash.</p>
+        <button>^p> I´m a text paragraph^/p></button>
+        <br>
+        <i>Many HTML elements require both opening and closing tags, also called container tags.</i>
+        
+        <h2>**HTML elements**</h2>
+        <p>Html uses tags to define elements. You'll keep learning about HTML elements in the following lessons.
+            The HTML code example below creates a basic web page with 3 different HTML elements:
+            <br>A heading - defined using the ^h> tag
+            <br>A paragraph - defined with the ^p> tag
+            <br>An image - defined with the ^img> tag
+        </p>
+        <button><p align="left">^h1>My first Heading^/h1> 
+            <br>^p>My first paragraph.^/p> 
+            <br>^img src="image_url">
+        </p></button>
+    </body>
+    <body><!--lesson 2.1-->
+        <hr>
+        <hr>
+        <h1><ins>2.1 lesson /*HTML elements*/</ins></h1>
+        <h2>**Writing HTML code**</h2>
+        <button><p align="left">^p>I'm paragraph number 1.^/p>
+            <br>^p>I'm paragraph number 2.^/p></p></button>
+        <br>
+        <i>The code playgroung has sections for the 3 core web technologies.
+            <br>-CSS controls the presentation and style of a web pages.
+            <br>-JavaScript controls the behavior and makes web pages interactive.
+            <br>in this course you´ll use the HTML section only.
+        </i>
+        <h2>**More HTMl Elements**</h2>
+        <p>-A level 1 heading element - defined using the ^h1> tag 
+            <br>-A paragraph - defined with the ^p> tag
+            <br>-An image - defined with the ^img> tag
+        </p>
+        <button><p align="left">^h1>My First Heading^/h1>
+            <br>^p>My first paragraph.^/p> 
+            <br>^img src="http://www.sololearn.com/images/tree.jpg">
+        </p></button>   
+        <h2>**Text headings**</h2>
+        <p>You can use up to 6 levels of headings in html, and the tags for these heading element are ^h1>, ^h2>, ^h3>, ^h4>, ^h5>, ^h6>.
+            <br>Below you can find a code example with some headings and the web page that the browser will display:
+        </p>
+        <button><p align="left">^h1>Heading 1^/h1>
+            <br>^h2>Heading 2^/h2>
+            <br>^h3>Heading 3^/h3>
+            <br>^h4>Heading 4^/H4>
+        </p></button>
+        <br>
+        <i>The different heading levels help to communicate the organization and hierarchy of the content on a page.</i>
+        <h2>**Container  tags**</h2>
+        <p>Many HTML elements require both opening and closing tags, also called container tags. Headings are examples of container tags
+            <br>Container tags always come with content. The content is what we want the browser to display. Container tags come in pairs and follow this structure:
+            <br><ins>opening tag </ins>+ <ins>content </ins>+ <ins>closing tag</ins>
+        </p>
+        <h2>**Image tags**</h2>
+        <p>You can add images to your web page with the ^img> tag. images are not techinically inserted into a web page, they are linked.</p>
+        <button>^img src="image_url"></button>
+        <p>You need to tell the browser the path or location of the image file so it cccccan be found and displayed. This path or location is called the source(src) of the image and needs to be included in the image tag.</p>
+        <i>The image tag doesn´t require a closing tag, tags that do not contain closing tags are called empty tags.</i>
+    </body>
+    <body><!--lesson 3.1-->     
+        <hr>
+        <hr> 
+        <h1><ins>3.1 lesson /*Creating Your First HTML Page*/</ins></h1>
+        <h2>**The HTML file**</h2>
+        <p>Html files are text files, so you can use any text editor to create your first webpage.
+            <br>There are some very nice HTML editors available: you can choose the one that works for you. For now let´s write our examples in Notepad.
+        </p>
+        <i>You can run, save, and share your Html codes on our code Playground. without installing any additional software.</i>
+        <p>Add the basic HTML structure to the text editor with "This is a line of text" in the body section.</p>
+        <button><p align="left">^html>
+            <br>.....^head>
+            <br>.....^/head>
+            <br>.....^body>
+            <br>..........This is a line of text.
+            <br>.....^/body>
+            <br>^/html></p></button>
+        <p>in our example, the file is saved as first.html
+            <br>when the file is opened, the following result is displayed in the web browser:</p>
+        <i>don´t forget to save the file. HTML file names should end in either .html or .htm</i>
+        <h2>**The ^head> tag**</h2>
+        <p>Immediately following the opening HTML tag, you´ll find the head of the document, which is identified by opening and closing head tags.
+            <br>The head of an HTML file contains all of the non-visual elements that help make the page work.</p>
+        <button><p align="left">^html>
+            <br>.....^head>^/head>
+            <br>^/html></p></button>
+        <h2>**The ^title> tag**</h2>
+        <p>To place a title on the tab describing the web page, add a ^title> element to your head section:</p>
+        <button><p align="left">^html>
+            <br>.....^head>
+            <br>..........^title>first page^/title>
+            <br>.....^/head>
+            <br>.....^body>
+            <br>..........this is a line of text.
+            <br>.....^/body>
+            <br>^/html></p></button>
+        <br> 
+        <i>The title element is important because it describes the page and is used by search engines.</i>
+    </body>
+    <body><!--lesson 4.1-->
+        <hr>
+        <hr>
+        <h1><ins>4.1 lesson /*Creating a blog*/</ins></h1>
+        <button><p align="left">^html>
+            <br>.....^head>
+            <br>..........^title>My blog^/title>
+            <br>.....^/head>
+            <br>^/html></p></button>
+    </body>
+    <body><!--lesson 5.1-->
+        <hr>
+        <hr>
+        <h1><ins>5.1 lesson /*Module 1 quiz*/</ins></h1>
+    </body>
+    <body><!--lesson 6.1-->
+        <hr>
+        <hr>
+        <h1>*****HTML Basics*****</h1><!--esta es la segunda unidad-->
+        <hr>
+        <hr>
+        <h1><ins>6.1 lesson /*Headings, lines, comments*/</ins></h1><!--este es una nueva leccion 6-->
+        <h2>**html headings**</h2>
+        <p>HTML inclodes -six levels of headings, which are ranked according to importance.
+            <br>These are ^h1>, ^h2>, ^h3>, ^h4>, ^h5>, and ^h6>.</p>
+        <button><p align="left">^html>
+            <br>....^head>
+            <br>........^title>first page^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^h1>This is heading 1^/h1>
+            <br>........^h2>This is heading 2^/h2>
+            <br>........^h3>This is heading 3^/h3>
+            <br>........^h4>This is heading 4^/h4>
+            <br>........^h5>This is heading 5^/h5>
+            <br>........^h6>This is heading 6^/h6>
+            <br>....^/body>
+            <br>^/html></p></button>
+        <br>
+        <i>It is not recommended that you use headings just to make the text big or bold, because search engines use headings to index the web page structure and content.</i>
+        
+        <h2>**horizontal lines**</h2>
+        <p>To create a horizontal line, use the ^hr> tag.</p>
+        <button><p align="left">^html>
+            <br>....^head>
+            <br>........^title>first page^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^h1>This is heading 1^/h1>
+            <br>........^h2>This is heading 2^/h2>
+            <br>........^h3>This is heading 3^/h3>
+            <br>........^h4>This is heading 4^/h4>
+            <br>........^h5>This is heading 5^/h5>
+            <br>........^h6>This is heading 6^/h6>
+            <br>........^p>this is a paragraph ^/p>
+            <br>........^hr>
+            <br>........^p>this is a paragraph ^/p>
+            <br>....^/body>
+            <br>^/html></p></button>
+        <hr>
+        <p align="center">---example last code---</p>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+        <p>This is a paragraph </p>
+        <hr>
+        <p>This is a paragraph </p>
+        <hr>
+        
+        <h2>**comments**</h2>
+        <p>The browser does not display comments, but they help document the HTML and add descriptions, reminders, and other notes.</p>
+        <button>^!-- Your comment goes here--></button>
+        <br>
+        <button><p align="left">^html>
+            <br>....^head>
+            <br>........^title>first page^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^p>this is a paragraph ^/p>
+            <br>........^hr />
+            <br>........^p>this is a paragraph. ^/p>
+            <br>........^!--this is a comment-->
+            <br>....^/body>
+            <br>^/html></p></button>
+        <br>
+        <i>There is an exclamation point (!) in the opening tag, but not in the closing tag.</i>
+    </body>
+    <body><!--lesson 7.1-->
+        <hr>
+        <hr>
+        <h1><ins>7.1 lesson /*Paragraphs*/</h1>
+        <h2>**the ^p> element**</h2>
+        <p>to create a paragraph, simply type in the ^p> element with its opening and closing tags:</p>
+        <button><p align="left">^html>
+            <br>....^head>
+            <br>........^title>first page^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^p>this is a paragraph. ^/p>
+            <br>........^p>this is another paragraph. ^/p>
+            <br>....^/body>
+            <br>^/html></p></button>
+        <h2>**single line break**</h2>
+        <p>Use the ^br /> tag to add a single line of text without starting a new paragraph:</p>
+        <button><p align="left">^html>
+            <br>....^head>
+            <br>........^title>first page^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^p>this is a paragraph. ^/p>
+            <br>........^p>this is another paragraph. ^/p>
+            <br />........^p>this is ^br /> a line break^/p>
+            <br />....^/body>
+            <br>^/html></p></button>
+        <br />
+        <i>The ^br /> element is an empty HTML element. it has no end tag.</i>
+    </body>
+    <body><!--lesson 8.1-->
+        <hr>
+        <hr>
+        <h1><ins>8.1 lesson /*Text formatting*/</ins></h1>
+        <h2>**formatting elements**</h2>
+        <p>In HTML, there is a list of elements that specify text style.
+            <br />formatting elements were designed to display special types of text.</p>
+        <button><p align="left">^html>
+            <br>....^head>
+            <br>........^title>first page ^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^p> this is regular test ^/p>
+            <br>........^p>^b> bold text ^/b>^/p>
+            <br>........^p>^big> big text ^/big>^/p>
+            <br>........^p>^i> italic text ^/i>^/p>
+            <br>........^p>^small> small text ^/small>^/p>
+            <br>........^p>^strong> strong text ^/strong>^/p>
+            <br>........^p>^sub> subscripted text ^/sub>^p>
+            <br>........^p>^sup> superscripted text ^/sup>^p>
+            <br>........^p>^ins> inserted text ^/ins>^/p>
+            <br>........^p>^del> deleted text ^/del>^/p>
+            <br>....^/body>
+            <br>^/html></p></button>
+        <hr />
+        <p align="center">---example last code---</p>
+        <p>This is regular text </p>
+        <p><b>bold text </b></p>
+        <p><big> big text </big></p>
+        <p><i> italic text </i></p>
+        <p><small> small text </small></p>
+        <p><strong> strong text </strong></p>
+        <p><sub> subscripted text </sub></p>
+        <p><sup> superscripted text </sup></p>
+        <p><ins> inserted text </ins></p>
+        <p><del> deleted text </del></p>
+        <hr />
+        <br>
+        <em>The ^strong> tag is a phrase tag. it defines important text.</em><br><br>
+        <i>browsers display ^strong> as ^b>, and ^em> as ^i>.<br>
+        However, the meanings of these tags differ: ^b> and ^i define bold and italic text, respectiverly, while ^strong> and ^em> indicate that the text is "important".</i>
+    </body>
+    <body><!--lesson 9.1-->
+        <hr>
+        <hr>
+        <h1><ins>9.1 lesson /*blog project: about me*/</ins></h1>
+        <h2>**formatting text**</h2>
+        <p>let´s get back to out blog project.
+            <br>The about me section will contain a heading that´s wrapped in a ^h1> tag along with two paragraphs that format text using the tags you´ve just learned.</p>
+        <button><p align="left" class="quote">^!DOCTYPE html>
+            <br>^html>
+            <br>....^head>
+            <br>........^title>My Blog^/title>
+            <br>........^link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+            <br>....^/head>
+            <br>....^body>
+            <br>........^!-- About Me section start -->
+            <br>........^div class="section">
+            <br>............^h1>^span>About Me^/span>^/h1>
+            <br>............^p>
+            <br>................Hey! I'm ^strong>Alex^/strong>. Cod me ^i> skills^/i> ailso at ^strong>Solarn^/strong> where
+            <br>............^/p>
+            <br>............^p class="quote">"Declare variables, not war"^/p>
+            <br>........^/div>
+            <br>........^!-- About Me section end -->
+            <br>....^/body>
+            <br>^/html></p></button>
+            <hr>
+            <p align="center">---example last code---</p>
+            <!-- About Me section start -->
+                <div class="section">
+                    <h1><span>About Me</span></h1>
+                    <p>
+                        Hey! I'm <strong>Alex</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it all at <strong>SoloLearn</strong> where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
+                    </p>
+                    <p class="quote">"Declare variables, not war"</p>
+                </div>
+            <!-- About Me section end -->
+            <hr>
+    </body>
+    <body><!--lesson 10.1-->
+        <hr>
+        <hr>
+        <h1><ins>10.1 lesson /*Elements*/</ins></h1>
+        <h2>**html elements**</h2>
+        <p>an HTML element is written using a <b>start tag</b> and an <b>end tag</b>, and with the content in between
+        <br>HTML documents consist of nested HTML elements, in the example below, the body element includes the ^p> tags, the ^br /> tag and the content, "this is a paragraph".</p>
+        <button><p align="left">^html> 
+        <br>.....^head>
+        <br>..........^title>first page^/title>
+        <br>.....^/head>
+        <br>.....^body>
+        <br>..........^p>this is a paragraph^br />^p>
+        <br>.....^/body>
+        <br>^/html></p></button>
+        <br>
+        <i>some HTML elements (like the ¡br /> tag) do not have end tags</i>
+        <p>some elements are quite small. Since you can´t put contents within a break tag, and you don´t have an opening and closing break tag, it´s a separete, single element.
+            <br>So html is really scripting with elements within elements.</p>
+        <button><p align="left">^html> 
+            <br>.....^head>
+            <br>..........^title>first page^/title>
+            <br>.....^/head>
+            <br>.....^body>
+            <br>..........^p>this is a paragraph^p>
+            <br>..........^p>this is a ^br /> line break^p>
+            <br>.....^/body>
+            <br>^/html></p></button>
+        <br>
+        <i>some html elements (like the ^br /> tag) do not have end tags.</i>
+    </body>
+    <body><!--lesson 11.1-->
+        <hr>
+        <hr>
+        <h1><ins>11.1 lesson /*Attributes*/</ins></h1>
+        <h2>**HTML attributes**</h2>
+        <p>attributes provede additional information about an element or a tag, while also modifying them. most attributes have a value; the value modifies the attribute</p>
+        <button align = left>^p align="center">
+            <br>....this text is aligned to center
+            <br>^/p></button>
+        <p>**********</p>
+        <button align = left>^body>
+            <br>.....^div align = center>
+            <br>..........^button align = center> there can be any text^/button>
+            <br>.....^/div>
+            <br>^/body></button>
+        <hr>
+        <p align = center>---example last code---</p>
+        <div align = center>
+            <button align = center>There can be any text</button>
+        </div>
+        <p align="right">
+            <button align = right>There a todos</button>
+        </p>
+        <div align ="left">
+            <button align ="left">creacion de un boton</button>
+        </div>
+        <hr>
+        <i>Attributes are always specified in the start tag, and they appear in name="value" pairs.</i>
+        <h2>**Attribute measurements**</h2>
+        <p>As an example, we can modify the horizontal line so it has a width of 50 pixels.</p>
+        <button align = left>
+            ^hr width="50px" /><br>
+            ^hr width="50%" /><br>
+        </button>
+        <br>
+        <i>An element´s width can be defined using pixels or percentages.</i>
+        <hr>
+        <p align="center">---example last code---</p>
+        <hr width="50px" />
+        <hr align="left" width="30%">
+        <hr align="right" width="75px" />
+        <hr>
+        <h2>**The align attribute**</h2>
+        <p>the align attribute is used to specify how the text is aligned.
+            <br>in the example below, we have a paragraph that is aligned to the center, and a line that is aligned to the right</p>
+        <button align = left>^html>
+            <br>....^head>
+            <br>........^title>Attributes^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^p align="center">This is a text ^br />
+            <br>............^hr width="10%" align="right" /> This is also a text.
+            <br>........^/p>
+            <br>....^/body>
+            <br>^/html><br>
+        </button>
+        <hr>
+        <p align = center>---example last code---</p>
+        <p align="center">This is a text <br />
+            <hr width="10%" align="right"/> This is also a text.
+        </p>      
+        <hr>
+        <h2>**attributes**</h2>
+        <p>You may be wondering what happens if you try to apply contradictory attributes within the same element.</p>
+        <button align="left">^p align="center">
+            <br>....This is a text.
+            <br>....^hr width="50%" align="left" />
+            <br />^/p>
+        </button>
+        <hr />
+        <p align="center">---example last code----</p>
+        <p align="center">
+            this is a test.
+            <hr width="50%" align="left" />
+        </p>
+        <hr />
+    </body>
+    <body><!--lesson 12.1-->
+        <hr>
+        <hr>
+        <h1><ins>lesson 12.1 /*Images*/</ins></h1>
+        <h2>**the ^img> tag**</h2>
+        <p>the ^img> tag is used to insert an image. It contains only attributes, and does not have a closing tag.
+            <br>The image´s URL (address) can be defined using the <b>src</b> attribute.
+            <br><b>The HTML image syntax looks like this.</b></p>
+        <button>^img src="image.jpg" /></button>
+        <h2>**image location**</h2>
+        <p>You nee to put in the <b>image location</b> for the src attribute that is between the quotation marks.
+        <br>For example, if you have a photo named "tree.jpg" in the same folder as the HTML file, your code should look like this:</p>
+        <button align = left>^html>
+            <br>....^head>
+            <br>........^title>first page^/title>
+            <br>....^/head>
+            <br>....^body>
+            <br>........^img src="http://www.sololearn.com/images/tree.jpg" alt="" />
+            <br>....^/body>
+            <br>^/html>
+        </button>
+        <hr>
+        <p align = center>----exercise last code----</p>
+        <img src="http://www.sololearn.com/images/tree.jpg" alt="" />
+        <hr>
+        <br>
+        <i>In case the image cannot be displayed, the alt attribute specifies an alternate text that describes the image in words. The alt attribute is <b>required.</b></i>
+        <h2>**image resizing**</h2>
+        <p>To define the image size, use the width and height attributes. The value can be specified in <b>pixels</b>or as a <b>percentage:</b></p>
+        <button align = left>^body>
+            <br> ....^img src="http://www.sololearn.com/images/tree.jpg" height="150px" width="150px" alt="" />
+            <br />....^img src="http://www.sololearn.com/images/tree.jpg" height="50%" width="50%" alt="" />
+            <br>^/body></button>
+        <hr>
+        <p align="center">----example last code----</p>
+            <img src="http://www.sololearn.com/images/tree.jpg" height="150px" width="150px" alt="" />
+            <br />
+            <img src="http://www.sololearn.com/images/tree.jpg" height="50%" width="50%" alt="" />
+        <hr>
+        <h2>**image border**</h2>
+        <p>By default, an image has no borders. Use the border attribute within the image tagg to create a border around the image.</p>
+        <button align="left">^img src="http://www.sololearn.com/images/tree.jpg" height="150px" width="150px" border="10px" alt="" /></button>
+        <button align="left">^img src="http://www.sololearn.com/images/tree.jpg" height="150px" width="150px" border="25px" alt="" /></button>
+        <button align="left">^img src="http://www.sololearn.com/images/tree.jpg" height="150px" width="150px" border="1px" alt="" /></button>
+        <hr border="20px">
+        <p align="center">----example last code---</p>
+        <img src="http://www.sololearn.com/images/tree.jpg"
+         height="150px" width="150px"
+         border="10px" alt="" />
+        <img src="http://www.sololearn.com/images/tree.jpg"
+         height="150px" width="150px"
+         border="25px" alt="" />
+        <img src="http://www.sololearn.com/images/tree.jpg"
+         height="150px" width="150px"
+         border="1px" alt="" />
+        <hr border="30px">
+    </body>
+    <body><!--lesson 13.1-->
+        <hr>
+        <hr>
+        <h1><ins>lesson 13.1 /*Lists*/</ins></h1>
+        <h2>**html ordered lists**</h2>
+        <p>An ordered list starts with the ^ol> tag. and each list item is defined by the ^li> tag.
+            <br>Here is an example of an ordered list.
+        </p>
+        <button align="left">^body>
+            <br>....^ol>
+            <br>........^li>red^/li>
+            <br>........^li>blue^/li>
+            <br>........^li>green^/li>
+            <br>....^/ol>
+            <br>^/body></button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <ol>
+            <li>red</li>
+            <li>blue</li>
+            <li>green</li>
+            <li>yellow</li>
+            <li>black</li>
+        </ol>
+        <hr>
+        <br>
+        <i>The list items will be automatically marked with numbers.</i>
+        <h2>**HTML unordered list**</h2>
+        <p>An unordered list starts with the ^ul> tag.</p>
+        <button align="left">^html>
+            <br>.....^head>
+            <br>..........^title>first page^/title>
+            <br>.....^/head>
+            <br>.....^body>
+            <br>..........^ul>
+            <br>...............^li>red^/li>
+            <br>...............^li>blue^/li>
+            <br>...............^li align="center">green^/li>
+            <br>...............^li>yellow^/li>
+            <br>..........^/ul>
+            <br>.....^/body>
+            <br>^/html>
+        </button>
+        <hr>
+        <p align = center>example last code</p>
+        <ul>
+            <li>red</li>
+            <li>blue</li>
+            <li>green</li>
+            <li align="center">black</li>
+            <li>yellow</li>
+        </ul>
+        <hr>
+        <br>
+        <i>The list items will be marked with bullets.</i>
+    </body>
+    <body><!--lesson 14.1-->
+        <hr>
+        <hr width = 50% align = center>
+        <hr>
+        <h1><ins>14.1 lesson /*Blog Project: My Skills*/</ins></h1>
+        <h2>**My Skills**</h2>
+        <p>Back to our blog! let´s create the <b>My Skills</b> section, which is an unordered list of languages you know.
+        <br><b>Reminder:</b> Use the ^ul> tag, in which each item is represented by the ^li> tag to create an unordered list.
+        <br>Take a look at the code:</p>
+        <button align="left">^!DOCTYPE html>
+        <br>^html>
+        <br>.....^head>
+        <br>..........^title>My Blog^/title>
+        <br>..........^link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+        <br>.....^/head>
+        <br>.....^body>
+        <br>..........^!-- My Skills section start -->
+        <br>..........^div class="section">
+        <br>...............^h1>^span>My Skills^/span>^/h1>
+        <br>...............^ul>
+        <br>....................^li>HTML^/li>
+        <br>....................^li>CSS^/li>
+        <br>....................^li>JavaScript^/li>
+        <br>...............^/ul>
+        <br>..........^/div>
+        <br>..........^!-- My Skills section end -->
+        <br>.....^/body>
+        <br>^/html></button>
+        <br><i><b>task</b>
+        <br><ol>
+                <li>Create your own My Skills section.</li>
+                <li>Use the ^a> tag to make each list item a link.</li>
+        </ol></i>
+        <button align="left">^ul>
+            <br>.....^li>
+            <br>..........^a href="https://www.sololearn.com">
+            <br>...............A 
+            <br>..........^/a>
+            <br>.....^/li>
+            <br>.....^li>B^/li>
+            <br>^/ul>
+        </button>
+    </body>
+    <body><!--lesson 15.1-->
+        <hr>
+        <hr width="50%" align="center">
+        <hr>
+        <h1><ins>15.1 lesson /*Tables*/</ins></h1>
+        <h2>**Creating a table**</h2>
+        <p>Tables are defined by using the <b>^table></b>tag.
+        <br>tables are divided into table rows with the <b>^tr></b>tag.
+        <br>table rows are divided into table columns (table data) with the <b>^td></b>tag.
+        <br>
+        <br>Here is an example of a table with <b>one row</b> and <b>three columns</b></p>
+        <button align="left">^table>
+            <br>.....^tr>
+            <br>..........^td>^/td>
+            <br>..........^td>^/td>
+            <br>..........^td>^/td>
+            <br>.....^/tr>
+            <br>^/table>
+        </button>
+        <br>
+        <i>Table data tags ^td> act as data containers within the table. they can contain all sorts of HTML elements, such as text, images, lists, other table, and so on.</i>
+        <h2>**The border and colspan Attributes**</h2>
+        <p>A border can be added using the border attribute.</p>
+        <button>^table border="2"></button>
+        <br><p>A table cell can span two or more columns:</p>
+        <button align="left">^table border="2">
+            <br>.....^tr>
+            <br>..........^td>red^/td>
+            <br>..........^td>blue^/td>
+            <br>..........^td>green^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td>^br />^/td>
+            <br>..........^td colspan="2">^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td colspan="3">^br />^/td>
+            <br>.....^/tr>
+            <br>^/table>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <table border="2">
+            <tr>
+                <td>Red</td>
+                <td>Blue</td>
+                <td>Green</td>
+            </tr>
+            <tr>
+                <td><br /></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><br /></td>
+            </tr>
+        </table>
+        <hr>
+        <br><i>The border attribute is not supported in HTML5.</i>
+        <h2>**Colspan color**</h2>
+        <p>The example below demostrates the colspan attribute in action:</p>
+        <button align="left">^table border="2">
+            <br>.....^tr>
+            <br>..........^td>Red^/td>
+            <br>..........^td>Blue^/td>
+            <br>..........^td>Green^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td>yellow^/td>
+            <br>..........^td colspan="2">orange^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td colspan="3">black^/td>
+            <br>.....^/tr>
+            <br>^/table></button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <table border="2">
+            <tr>
+                <td>Red</td>
+                <td>Blue</td>
+                <td>Green</td>
+            </tr>
+            <tr>
+                <td>yellow</td>
+                <td colspan="2">orange</td>
+            </tr>
+            <tr>
+                <td colspan="3">black</td>
+            </tr>
+        </table>
+        <hr>
+        <br><p>You can see that the cell containing "Orange" spans two cells.</p>
+        <i>To make a cell span more than one row, use the <b>rowspan</b> attribute.</i>
+        <br>
+        <button align="left">^table border="2">
+            <br>.....^tr>
+            <br>..........^td>Red^/td>
+            <br>..........^td>Blue^/td>
+            <br>..........^td>Green^/td>
+            <br>..........^td rowspan="6">black^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td>^br />^/td>
+            <br>..........^td colspan="2">^br />^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td colspan="2">^br>^/td>
+            <br>..........^td>^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td>^br>^/td>
+            <br>..........^td>^/td>
+            <br>..........^td rowspan="3">^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td rowspan="2">^br>^/td>
+            <br>..........^td>^br>^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td>^br>^/td>
+            <br>.....^/tr>
+            <br>^/table></button>
+        <hr>
+        <p align="center">----example with the attribute rowspan-----</p>
+        
+        <table border="2">
+            <tr>
+                <td>Red</td>
+                <td>Blue</td>
+                <td>Green</td>
+                <td rowspan="6">black</td>
+            </tr>
+            <tr>
+                <td><br /></td>
+                <td colspan="2"><br /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><br></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><br></td>
+                <td></td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><br></td>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>**The align and bgcolor Attributes**</h2>
+        <p>To change your table´s position, use the align attribute inside your table tag:</p>
+        <button>^table align="center"></button>
+        <p>Now let´s specify a background color of red for a table cell. to do that, just use the bgcolor attribute.</p>
+        <button align="left">^tablle border="4">
+            <br>.....^tr>
+            <br>..........^td bgcolor="red">red^/td>
+            <br>..........^td>blue^/td>
+            <br>..........^td>green^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td rowspan="2">yellow^/td>
+            <br>..........^td colspan="2">orange^/td>
+            <br>.....^/tr>
+            <br>.....^tr>
+            <br>..........^td>^br>^/td>
+            <br>..........^td bgcolor="black">^/td>
+            <br>.....^/tr>
+            <br>^/table></button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <table border="4">
+            <tr>
+                <td bgcolor="red">Red</td>
+                <td>Blue</td>
+                <td>Green</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Yellow</td>
+                <td colspan="2">Orange</td>
+            </tr>
+            <tr>
+                <td><br></td>
+                <td bgcolor="black"></td>
+        </table>
+        <hr>
+        <i>td is equal th, td = th</i>
+    </body>
+    <body><!--lesson 16.1-->
+        <hr>
+        <hr width="50%" align="right">
+        <hr>
+        <h1><ins>16.1 lesson /*Links*/</ins></h1>
+        <h2>**The ^a> tag**</h2>
+        <p>Links are also an integral part of every web page. You and add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
+            <br>in html, links are defined using the ^a> tag.
+            <br>
+            <br>Use the href attribute to define the link´s destination address:</p> 
+        <button>^a href="">^/a></button>
+        <br>
+        <i>To link an image to another document, simply nest the ^img> tag inside ^a> tags.</i>
+        <h2>**Creating your first link**</h2>
+        <p>in the example below. a link to sololearn´s website is defined.</p>
+        <button align="left">^a href="http://www.sololearn.com">
+            <br>.....learn playing
+            <br>^/a>
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <a href="http://sololearn.com">
+            learn playing
+        </a>
+        <hr>
+        <p>once the code has been saved, "learn playing" will display as a link:
+            <br><ins>learn playing</ins>
+            <br>clicking on <b>"learn playing"</b> redirects you to www.sololearn.com</p>
+        <br><i>links can be either absolute or relative.</i>
+        <h2>**The target attribute**</h2>
+        <p>The target attribute specifies where to open the linked document. Giving a _blank value to your attribute will have the link open in a new window or new tab:</p>
+        <button align="left">^a href="http://wwww.sololearn.com" target="_blank">
+            <br>.....direccionar a otra ventana
+            <br>^/a></button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <a href="https://sololearn.com" target="_blank">
+            direccionar a otra ventana
+        </a>
+        <hr>
+    </body>
+    <body><!--lesson 17.1-->
+        <hr>
+        <hr width="60%">
+        <hr />
+        <h1><ins>17.1 lesson /*Blog project: my schedule*/</ins></h1>
+        <h2>**My schedule**</h2>
+        <p>Use table tags to add a table to your blog that represents your daily learning schedule.
+            <br>the ^th> tags represent the table headers.
+            <br><b>take a look at the following code.</b>
+        </p>
+        <button align="left">
+            <!-- My Schedule section start -->
+        ^div class="section">
+        <br>.....^h1>^span>My Coding Schedule^/span>^/h1>
+        <br>.....^table>
+        <br>..........^tr>
+        <br>...............^th>Day^/th>
+        <br>...............^th>Mon^/th>
+        <br>...............^th>Tue^/th>
+        <br>...............^th>Wed^/th>
+        <br>...............^th>Thu^/th>
+        <br>...............^th>Fri^/th>
+        <br>..........^/tr>
+        <br>..........^tr>
+        <br>...............^td>8-8:30^/td>
+        <br>...............^td class="selected">Learn^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>..........^/tr>
+        <br>..........^tr>
+        <br>...............^td>9-10^/td>
+        <br>...............^td>^/td>
+        <br>...............^td class="selected">Practice^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>.........^/tr>
+        <br>.........^tr>
+        <br>...............^td>1-1:30^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td class="selected">Play^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>.........^/tr>
+        <br>.........^tr>
+        <br>...............^td>3:45-5^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td class="selected">Code^/td>
+        <br>...............^td>^/td>
+        <br>........../tr>
+        <br>..........tr>
+        <br>...............^td>6-6:15^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td>^/td>
+        <br>...............^td class="selected">Discuss^/td>
+        <br>..........^/tr>
+        <br>...../table>
+        <br>^/div>
+        <!-- My Schedule section end -->
+        </button>
+        <hr>
+        <p align="center">------example last code-----</p>
+        <!-- My Schedule section start -->
+        <div class="section">
+            <h1><span>My Coding Schedule</span></h1>
+            <table border="4">
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>8-8:30</td>
+                    <td class="selected">Learn</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td class="selected">Practice</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1-1:30</td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Play</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:45-5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Code</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6-6:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Discuss</td>
+                </tr>
+            </table>
+        </div>
+        <!-- My Schedule section end -->
+        <hr>
+        <p>The empty ^td> tags represent empty table cells, they´re necessary because they maintain the table´s structure.</p>
+        <br><i>Task: customize the table to create your unique schedule!</i>
+    </body>
+    <body><!--lesson 18.1-->
+        <hr>
+        <hr>
+        <h1><ins>18.1 lesson /*Inline and block elements*/</ins></h1>
+        <h2>**Types of elements**</h2>
+        <p>In html, most elements are defined as block level or inline elements. block level elements start from a new line.
+            <br>for example: ^h1>, ^form>, ^li>, ^ol>, ^ul>, ^p>, ^pre>, ^table>, ^div>, etc.
+        </p>
+        <p>Inline elements are normally displayed without line breaks.
+            <br>for example: ^b>, ^a>, ^strong>, ^img>, ^input>, ^em>, ^span>, etc.
+        </p>
+        <p>the ^div> element is a block-level element that is often used as a container for other html elements.</p>
+        <p>when used together with some CSS styling, the ^div> element can be used to style blocks of content:</p>
+        <button align="left">
+            ^h1>headline^/h1>
+            <br>^div style="background-color:green; color:white; padding:20px">
+            <br>.....^p>some paragraph text goes here^/p>
+            <br>.....^p>another paragraph goes here.^/p>
+            <br>^/div>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <h1>Headline</h1>
+        <div style="background-color:green; color:white; padding:20px;">
+            <p>some paragraph text goes here.</p>
+            <p>another paragraph goes here.</p>
+        </div>
+        <hr>
+        <p>Similarly, the ^span> element is an inline element that is often used as a container for some text.
+            <br>When used together with CSS, the ^span> element can be used to style parts of the text:
+        </p>
+        <button align="left">
+            ^h2>some
+            <br>.....^span style="color:red">Important^/span>
+            <br>..... Message
+            <br>^/h2>
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <h2>Some
+            <span style="color:red">Important</span>
+             Message
+        </h2>
+        <hr>
+        <i>Summary
+            <br>The ^div> element defines a block-level section in a document.
+            <br>The ^span> element defines an inline section in a document.
+        </i>
+        <h2>**types of elements**</h2>
+        <p>Other elements can be used either as block level elements or inline elements.
+            <br>This includes the following element:
+            <br><b>APPLET</b> - embedded java applet
+            <br><b>IFRAME</b> - Inline frame
+            <br><b>INS</b> - inserted text
+            <br><b>MAP</b> - image map
+            <br><b>OBJECT</b> - embedded object
+            <br><b>SCRIPT</b> - script within an HTML document
+            <br>
+            <br>You can insert inline elements inside block elements. for example, you can have multiple ^span> elements inside a ^div> element.</p>
+        <i>Inline elements cannot contain any block level elements.</i>
+    </body>
+    <body><!--lesson 19.1-->
+        <hr>
+        <hr width="80%">
+        <hr>
+        <h1><ins>19.1 lesson /*forms*/</ins></h1>
+        <h2>**The ^form> element**</h2>
+        <p>HTML forms are used to collect information from the user.
+            <br>Forms are defined using the ^form> element, with its opening and closing tags:
+        </p>
+        <button align="left">
+            ^body>
+            <br>.....^form>^/form>
+            <br>^/body>
+        </button>
+        <br><p>Use the action attribute to point to a webpage that will load aften the user submits the form.</p>
+        <button align="left">
+            ^form action="http://www.sololearn.com"
+            <br>^/form>
+        </button>
+        <br><i>Usually the form is submitted to a web page on a web server.</i>
+        <h2>**The method and name attributes**</h2>
+        <p>The method attribute specifies the HTTP method (GET or POST) to be used when forms are submitted (see below for description):</p>
+        <button align="left">^form action="url" method="GET"></button>
+        <button align="left">^form action="url" method="POST"></button>
+        <br><i>When you use GET, the form data will be visible in the page address.
+            <br>Use POST if the form is updating data, or includes sensitive information (passwords).
+            <br>POST offers better security because the submitted data is not visible in the page address.</i>
+        <p>To take in user input, you need the corresponding form elements, such as text fields. The ^input> element has many variations, depending on the type attribute. It can be a text, password, radio, URL, submit, etc.</p>
+        <b>The example below shows a form requesting a username and password:</b>
+        <button align="left">^form>
+            <br>.....^input type="text" name="username" />^br>
+            <br>.....^input type="password" name="password" />
+            <br>^form>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <form>
+            <input type="text" name="username" /><br>
+            <input type="password" name="password" />
+        </form>
+        <hr>
+        <br><i>The name attribute specifies a name for a form.</i>
+        <h2>**Form elements**</h2>
+        <p>If we change the input type to radio, it allows the user select only one of a number of choices:</p>
+        <button align="left">^input> type="radio" name="gender" value="male" />Male^br>
+        <br>^input type="radio" name="gender" value="female" />^br>
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+            <input type="radio" name="gender" value="Male" />Male<br>
+            <input type="radio" name="gender" value="female" />female
+        <hr>
+        <p>The type "checkbox" allows the user to select more than one option:</p>
+        <button align="left">^input type="checkbox" name="gender" value="1 /> Male^br>
+            <br>^input type="checkbox" name="gender" vale="2" />female
+        </button>
+        <hr>
+        <p align="left">-----example last code-----</p>
+        <form>
+            <input type="checkbox" name="gender" value="1" />Male<br />
+            <input type="checkbox" name="gender" value="2" />female<br />
+        </form>
+        <hr>
+        <br><i>The ^input> tag has no end tag.</i>
+        <h2>**Form Elements**</h2>
+        <p>The submit button <b>submits a form</b> to its action attribute:</p>
+        <button>^input type="submit" value="Submit" /></button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <input type="submit" valur="Submit" *>
+        <hr>
+        <i>After the form is submitted, the data should be processed on the server using a programming language, such as PHP.</i>
+        <hr>
+        <p align="center">-----another example-----</p>
+        <button align="left">
+            ^form>
+            <br>.....^input placeholder="Name" />^br>
+            <br>.....^input placeholder="Email" />
+            <br>^/form>
+        </button>
+        <br>
+        <form>
+			<input placeholder="Name" /><br>
+			<input placeholder="Email" />
+		</form>
+        <hr>
+
+    </body>
+    <body><!--lesson 20.1-->
+        <hr>
+        <hr>
+        <h1><ins>20.1 lesson /*Blog Project: Contact form*/</ins></h1>
+        <h2>Contact form</h2>
+        <p> Next, we´ll create a <b>contact form</b> for yur blog. The form will include Name, Email, AND Message fields. We´ll also add a submit button.</p>
+        <b>Check out the code:</b><br>
+        <button align="left">
+            ^div class="section">
+            <br>.....^h1>^span>Contact Me^/span>^/h1>
+            <br>.....^form>
+            <br>..........^input placeholder="Name" name="name" type="text" />^br/>
+            <br>..........^input name="email" type="email" />^br/>
+            <br>..........^textarea name="message" >^/textarea>
+            <br>..........^input type="submit" value="SEND" class="submit" />
+            <br>.....^/form>
+            <br>^/div>
+        </button>
+        <hr>
+        <p align="center">-----example last code.....</p>
+        <div class="section">
+            <h1><span>Contact Me</span></h1>
+            <form>
+                <input placeholder="Name" name="name" type="text" /><br/>
+                <input name="email" type="email" /><br/>
+                <textarea name="message" ></textarea><br>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <hr> 
+        <p>This is just a static HTML page, so it won´t work to actually submit the form.
+            <br>You´d need to create the server-side code in order to submit a real form and process the data.
+            To learn how, complete sololearn´s PHP course once you´ve completed the HTML and CSS courses.
+        </p>
+        <br><i>task: Check out the code and customize the form to fit your needs!</i>
+
+    </body>
+    <body><!--lesson 21.1-->
+        <hr>
+        <hr>
+        <h1><ins>21.1 lesson /*HTML colors*/</ins></h1>
+        <h2>**HTML colors!**</h2>
+        <p>HTML colors are expressed as hexadecimal values.</p>
+        <b>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</b>
+        <br><I>As you can see, there are 16 values there, 0 through F. Zero represents the lowest value, and F represents the highest.</I>
+        <h2>**HTML Color Model**</h2>
+        <P>Colors are displayed in combinations of <b>red, green,</b> and <b>blue</b> light (RGB)</P>
+        <p>Hex values are written using the hashtag symbol (#), followed by either three or six hex characters.
+            <br>As shown in the picture below, the circles overlap, forming new colors:</p>
+        <br><i>RGB color values are supported in all browsers.</i>
+        <h2>**Color Values**</h2>
+        <p>All of the possible <b>red, green,</b> and <b>blue</b> combinations potentially number over 16 million.</p>
+        <b>Here are only a few of them</b>
+        <ul>
+            <li>#FF0000____red</li>
+            <li>#00FF00____green light</li>
+            <li>#0000FF____blue dark</li>
+            <li>#000000____black</li>
+            <li>#777777____greey</li>
+            <li>#FFFFFF____white</li>
+        </ul>
+        <p>We can mix the colors to form additional colors.</p>
+        <b>Orange and red mix:</b>
+        <ul>
+            <li>#C1250F____orange and red mix</li>
+        </ul>
+        <i>Hexadecimal color values are supported in all browsers.</i>
+        <h2>**Background and font colors**</h2>
+        <p>The <b>brcolor</b> attribute can be used to change the web page´s background color.
+        <br>This example would produce a dark blue background with a while headline:</p>
+        <button align="left">
+            ^!DOCTYPE html>
+            <br>^html>
+            <br>.....^head>
+            <br>..........^title>first page^/title>
+            <br>.....^/head>
+            <br>.....^body bgcolor="#000099">
+            <br>..........^h1>
+            <br>...............^font color="#FFFFFF" white headline ^/font>
+            <br>..........^/h1>
+            <br>.....^/body>
+            <br>^/html> 
+        </button>
+        <br><i>The color attribute specifies the color of the text inside a ^font> element.</i>
+
+
+    </body>
+    <body><!--lesson 22.1-->
+        <hr>
+        <hr>
+        <h1><ins>22.1 lesson /*Frames*/</ins></h1>
+        <h2>**The ^frame> tag**</h2>
+        <p>A page can be divided into frames using a special frame document.
+            <br>
+            <br>The ^frame> tag defines one specific window (frame) within a ^frameset>.
+            <br>Each ^frame> in a ^frameset> can have different attributes, such as border, scrolling, the ability to resize. etc.
+            <br>
+            <br>The ^frameset> element specifies the number of columns or rows in the frameset, as well as what percentage or number of pixels of space each of them occupies.
+        </p>
+        <button align="left">
+            framesetcols="100, 25%, *">^/frameset>
+            <br>frameset rows="100, 25%, *">^/frameset>
+        </button>
+        <br><i>The ^frameset> tag is not supported in HTML5.</i>
+        <h2>**Working with frames**</h2>
+        <p>Use the ^noresize> attribute to specify that a user cannot resize a ^frame> element:</p>
+        <button>^frame noresize="noresize"></button>
+        <p>Frame content should be defined using the <b>src</b> attribute.
+        <br>
+        <br>Lastly, the <b>^noframes></b> element provides a way for browsers that do not support frames to view the page. The element can contain an alternative page, complete with a body tag and any other elements.</p>
+        <button align="left">
+            ^frameset cols="25%,50%,25%">
+            <br>.....^frame src="a.htm" />
+            <br>.....^frame src="b.htm" />
+            <br>.....^frame src="c.htm" />
+            <br>.....^noframes>frames not supported!^/noframes>
+            <br>^/frameset>
+        </button>
+        <br><i>The ^frame> tag is not supported in HTML5.</i>
+
+    </body>
+    <body><!--lesson 23.1-->
+        <hr>
+        <hr>
+        <h1><ins>23.1 lesson /*Blog project: Putting it All together*/</ins></h1>
+        <h2>**Blog project**</h2>
+        <p>To finalize our blog, we´ll use a frame to embed a youtuve video. We´ll also create a <b>follow me</b> section that includes links at the end of the page.</p>
+        <b>Check out the final code.</b>
+
+    </body>
+    <body><!--lesson 26.1-->
+        <hr>
+        <hr>
+        <h1><ins>26.1 lesson /*Introduction to HTML5*/</ins></h1>
+        <h2>**HTML5**</h2>
+        <p>when writing HTML5 documents, one of the first new features that you´ll notice is the doc type declaration:</p>
+        <button>^!DOCTYPE HTML></button>
+        <P>the character enconding (charset) declaration is also simplified:</P>
+        <button>^meta charset="UTF-8"></button>
+        <br><b><ins>New elements in HTML5</ins></b>
+        <p>^article>, ^aside>, ^audio>, ^canvas>, ^datalist>, ^details>, ^embed>, ^footer>, ^header>, ^nav>, ^output>, ^progress>, ^section>, ^video>, and even more!</p>
+        <i>the default character enconding in HTML5 is UTF-8</i>
+        <h2>**New in HTML5**</h2>
+        <b><ins>forms</ins></b>
+        <p>- the web forms 2.0 specification allows for creation of more powerful forms and more compelling user experiences.
+            <br>-Date pickrs, color pickers, and numeric stepper controls have been added.
+            <br>-input field types now include email, search and URL.
+            <br>-PUT and DELETE form methods are now supported.
+        </p>
+        <p><b>integrated API</b> (application programming interfaces)</p>
+        <ul>
+            <li>Drag and drop</li>
+            <li>Audio and video</li>
+            <li>Offline web applications</li>
+            <li>History</li>
+            <li>Local storage</li>
+            <li>Geolocation</li>
+            <li>Web messaging</li>
+        </ul>
+        <i>you will learn more about these new features in the upcomin lessons.
+            <br>tap the continue button to begin!
+        </i>
+    </body>
+    <body><!--lesson 27.1-->
+        <hr>
+        <hr>
+        <h1><ins>27.1 lesson /*Content Models*/</ins></h1>
+        <h2>**The list of content models**</h2>
+        <p>In HTML elements typically belonged in either the clock level or inline content model HTML5 introduces seven main content models.</p>
+        <ul>
+            <li>Metadata</li>
+            <li>Embedded</li>
+            <li>Interactive</li>
+            <li>Heading</li>
+            <li>Phrasing</li>
+            <li>Flow</li>
+            <li>Sectioning</li>
+        </ul>
+        <i>The HTML5 content models are designed to make the markup structure more meaningful for both the browser and the web designer.</i>
+        <h2>**Content Models**</h2>
+        <p><b>Metadata:</b> Content that sets up the presentation or behavior of the rest of the content, these elements are found in the <b>head</b> of the document.
+        <br>Elements: ^base>, ^link>, ^meta>, ^noscript>, ^script>, ^style>, ^>title</p>
+        <p><b>Embedded:</b> Content that imports other resources into the document.
+        <br>Elements: ^audio>, ^video>, ^canvas>, ^iframe>, ^img>, ^math>, ^object>, ^svg></p>
+        <p><b>Interactive.</b> Content specifically intended for user interaction.
+        <br>Elements: ^a>, ^audio>, ^video>, ^button>, ^details>, ^embed>, ^iframe>, ^img>, ^input>, ^label>, ^object>, ^select>, ^textarea></p>
+        <p><b>Heading: </b> Defines a section header.
+        <br>Elements. ^h1>, ^h2>, ^h3>, ^h4>, ^h5>, ^h6>, ^hgroup></p>
+        <p><b>Phrasing: </b> This model has a number of inline level elements in common with HTML4.
+        <br>Elements: ^img>, ^span>, ^strong>, ^label>, ^br />, ^small>, ^sub>, and more.</p>
+        <i>The same element can belong to more than one content model.</i>
+        <h2>**Content models**</h2>
+        <p><b>Flow content: </b>Contains the majority of HTML5 elements that would be included in the normal flow of the document.</p>
+        <p><b>Sectioning content: </b>Defines the scope of headings, content, navigation, and footers.
+        <br>Elements: ^article>, ^aside>, ^nav>, ^section></p>
+        <i>The various content models overlap in certain areas, depending on how they are being used.</i>
+
+    </body>
+    <body><!--lesson 28.1-->
+        <hr>
+        <hr>
+        <h1><ins>28.1 lesson /*HTML5 Page structure*/</ins></h1>
+        <h2>**Page Structure in HTML5**</h2>
+        <P>A generic HTML5 page structure looks like this:</P>
+        <table border="5">
+            <tr>
+                <td colspan="2" align="center" bgcolor="#00FF00"><h3>^header></h3>
+                <br>contains the brandings like logo</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><h3>^nav></h3>
+                    <br>contains navigational section of the site
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><h4>^article></h4>
+                    <br>web page main content
+                </td>
+                <td rowspan="3" align="center" bgcolor="#FF4560"><h3>^aside></h3>
+                    <br>contains extra information and related content or links
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><h4>^section></h4>
+                    <br>divided section of main content
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><h4>^section></h4>
+                <br>divided section of main content</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="#FFBBCC"><h3>^footer></h3>
+                <br>information about copyright, privacy plicy, terms of use. etc.</td>
+            </tr>
+        </table>
+        <i>You may not need some of these elements, depending on your page structure.</i>
+
+    </body>
+    <body><!--lesson 29.1-->
+        <hr>
+        <hr>
+        <h1><ins>29.1 lesson /*header, nav & footer*/</ins></h1>
+        <h2>**The ^header> element**</h2>
+        <p>in HTML4, we would define a header like this:</p>
+        <button>^div id="header"></button>
+        <p>in HTML5, a simple <b>^header></b> tag is used, instead.
+        <br>The ^header> element is appropriate for use inside the body tag.</p>
+        <button align="left">^!DOCTYPE HTML>
+            <br>^html>
+            <br>.....^head>^/head>
+            <br>.....^body>
+            <br>..........^header>
+            <br>................^h1>Most important heading^/h1>
+            <br>................^h3>Less important heading^/h3>
+            <br>..........^/header>
+            <br>.....^/body>
+            <br>^/html>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <body>
+            <header>
+                <h1>Most important heading</h1>
+                <h3>Less important heading</h3>
+            </header>
+        </body>
+        <hr>
+        <i>Note that the ^header> is completely different from the ^head> tag.</i>
+        <h2>**The ^footer> element**</h2>
+        <p>The footer element is also widely used. Generally we refer to a section located at the very bottom of the web page as the footer.</p>
+        <button>^footer>^/footer></button>
+        <i>The following information is usually provided between these tags:
+            <ul>
+                <li>contact information</li>
+                <li>privacy policy</li>
+                <li>Social Media Icons</li>
+                <li>Terms of Service</li>
+                <li>Copyright Information</li>
+                <li>Sitemap and related documents</li>
+            </ul>
+        </i>
+        <h2>**The ^nav> element**</h2>
+        <p>This tag represent a section of a page that links to other pages or to certain sections within the page. This would be a section with navigation links.
+            <br><p>Here is an example of a major block of navigation links:</p>
+        </p>
+        <button align="left">^nav>
+            <br>.....^ul>
+            <br>..........^li>^a href="#">home^/a>^/li>
+            <br>..........^li>^a href="#">Services^/a>^/li>
+            <br>..........^li>^a href="#">About us^/a>^/li>
+            <br>.....^/ul>
+            <br>^/nav>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        </hr>
+        <i>Not all of the links in a document should be inside a ^nav> element. The ^nav> element is intended only for major blocks of navigation links. Typically, the ^footer> element often has a list of links that don´t need to be in a ^nav> element.</i>
+
+    </body>
+    <body><!--lesson 30.1-->
+        <hr>
+        <hr>
+        <h1><ins>30.1 lesson /*article, section & aside*/</ins></h1>
+        <h2>**The ^article> element**</h2>
+        <p><b>Article</b> is a self-contained, independent piece of content that can be used and distributed separately from the rest of the page or site. This could be a forum post,
+            a magazine or newspaper article, a blog entry, a comment, an interactive widget or gadget, or any other independent piece of content.</p>
+        <p>the ^article> element replaces the  ^div> element that was widely used in HTML4, along with an id or class..</p>
+        <button align="left">
+            ^article>
+            <br>.....^h1>The article title^/h1>
+            <br>.....^p>Contents of the article element^/p>
+            <br>^/article>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <article>
+            <h1>the article title</h1>
+            <p>contents of the article element</p>
+        </article>
+        <hr>
+        <i>when an ^article> element is nested, the inner element representes an article related to the outer element. For example. blog post commnets can be ^article>
+            representing the blog post
+        </i>
+        <h2>**The ^section> element**</h2>
+        <p><b>^section></b> is a logical container of the page or article.
+        <br>sections can be used to divide up content within an article.
+        <br>For example, a homepage could have a section for introducing the company, another for news items, and still another for contact information.</p>
+        <br><p>Each ^section> should be identifies, typically by including a heading (h1-h6 element) as a child of the ^section> element.</p>
+        <button align="left">^article>
+            <br>.....^h1>welcome^/h1>
+            <br>.....^section>
+            <br>..........^h1>Heading^/h1>
+            <br>..........^p>content or image^/p>
+            <br>.....^/section>
+            <br>^/article>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <article>
+            <h1>Welcome</h1>
+            <section>
+                <h1>Heading</h1>
+                <p>content or image</p>
+            </section>
+        </article>
+        <hr>
+        <i>If it makes sense to separately syndicate the content of a ^section> element, use an ^article> element instead.</i>
+        <h2>**The ^aside> element**</h2>
+        <p><b>^aside></b> is secondary or tangential content which could be considered separate from but indirectly related to the main content.
+        <br>This type of content is often represented in sidebars.
+        <br>When an ^aside> tag is used within an ^article> tag, the content of the ^aside> should be specifically related to that article.</p>
+        <button align="left">^article>
+            <br>.....^h1>Gifts for everyone^/h1>
+            <br>.....^p>This website will be the best place for choosing gifts^/p>
+            <br>.....^aside>
+            <br>..........^p>Gifts Will be delivered to you within 24 hours^/p>
+            <br>.....^/aside>
+            <br>^/article>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <article>
+            <h1>Gifts for everyone</h1>
+            <p>This website will be the best place for choosing gifts</p>
+            <aside>
+                <p>Gifts will be belivered to you within 24 hours</p>
+            </aside>
+        </article>
+        <hr>
+        <i>when an  ^aside> tag is used outside of an ^article> tag. its content should be related to the surrounding contet.</i>
+    </body>
+    <body><!--lesson 31.1-->
+        <hr>
+        <hr>
+        <h1><ins>31.1 lesson /*The audio element*/</ins></h1>
+        <h2>**Audio on the web**</h2>
+        <p>Before HTML5, there was no standard for playing auido files on a web page.
+            <br>The HTML5 ^audio> element specifies a standard for embedding audio in a web page.
+        </p>
+        <h2>There are two different ways to specify the audio source file´s URL. the first uses the source attribute.</h2>
+        <button align="left">
+            ^audio src="http://www.sololearn.com/uploads/audio.mp3" controlls>
+            <br>.....Audio element not supported by your browser
+            <br>^/audio>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <audio src="http://www.sololearn.com/uploads/audio.mp3" controls>
+            Audio element not supported by your browser
+        </audio>
+        <hr>
+        <p>The second way uses the ^source> element inside the ^audio> element.</p>
+        <button align="left">
+            ^audio controls>
+            <br>.....^source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+            <br>.....^source src="hrrp://www.sololearn.com/uploads/audio.ogg" type="audio/ogg">
+            <br>^/audio>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <audio controls>
+            <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+            <source src="http.//www.sololearn.com/uploads/audio.ogg" type="audio/ogg">
+        </audio>
+        <hr>
+        <i>Multiple ^source> elements can be linked to different audio files. the browser will use the first recognized format.</i>
+        <h2>**Audio on the web**</h2>
+        <p>The ^audio> element creates an audio player inside the browser.</p>
+        <button align="left">
+            ^audio contols>
+            <br>.....^source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+            <br>.....^source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/ogg">
+            <br>.....Audio element not supported by your browser.
+            <br>^/audio>
+        </button>
+        <hr>
+        <p align="center">----example last code------</p>
+        <audio controls>
+            <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+            <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/ogg">
+            Audio element not supported by your browser.
+        </audio>
+        <hr>
+        <i>The text between the ^audio> and ^/audio> tags will display in browsers that do not support the ^audio> element.</i>
+        <h2>**Attributes of ^audio>**</h2>
+        <p><b>controls</b>
+        <br>Specifies that audio controls should be displayed (such as a play/pause button etc.)</p>
+        <p><b>autoplay</b>
+        <br>when this attribute is defined, audio starts playing as soon as it is ready, without asking for the visitor´s permission.</p>
+        <button align="left">
+            ^audio controls autoplay>
+            <br>.....^source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg"
+            <br>.....Audio element not supported by your browser.
+            <br>^/audio>
+        </button>
+        <p><b>loop</b>
+        <br>this attribute is used to have the audio replay every time it is finished.</p>
+        <button align="left">
+            ^audio controls autoplay loop>
+            <br>.....^source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+            <br>.....Audio element not supported by your browser.
+            <br>^/audio>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <audio controls autoplay loop>
+            <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+        </audio>
+        <hr>
+        <i>Currently, there are threee supported file formats for the ^audio> element: MP3, WAV, and OGG.</i>
+    </body>
+    <body><!--lesson 32.1-->
+        <hr>
+        <hr>
+        <h1><ins>32.1 lesson /*The video element*/</ins></h1>
+        <h2>**Videos in HTML**</h2>
+        <p>The video element is similar to the audio element.
+            <br>you can specify the video source URL using an attribute in a video element, or using source elements inside the video element.
+        </p>
+        <button align="left">
+            ^video controls>
+            <br>.....^source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4">
+            <br>.....^source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
+            <br>.....Video is not supported by your browser
+            <br>^/video>
+        </button> 
+        <hr>
+        <p align="center">----example last code-----</p>
+        <video controls>
+            <source src="http://www.sololearn.com/uploads/video.mp4" style="video/mp4">
+            <source src="http://www.sololearn.com/uploads/video.ogg" style="video/ogg">
+            Video is not supported by your browser
+        </video>
+        <hr>
+        <i>Another aspect that the audio and video elements have in common is that the major browsers
+            do not all support the same file types. If the browser does not support the first video type, it will try the next one.
+        </i>
+        <h2>**Attributes of ^video>**</h2>
+        <p>Another aspect shared by both the audio and the video elements is taht each has <b>controls, autoplay</b> and<b>loop</b> attributes.</p>
+        <p>In this example, the video will replay after it finishes playing:</p>
+        <button align="left">
+            ^video controls autoplay loop>
+            <br>.....^source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4">
+            <br>.....^source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
+            <br>.....Video is not supported by your browser
+            <br>^/video>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <video controls autoplay loop>
+            <source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4">
+            <source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
+            Video is not supported by your browser
+         </video>
+        <hr>
+        <i>Currently, there are three supported video formats for the ^video> element: MP4, WebM, and OGG</i>
+    </body>
+    <body><!--lesson 33.1-->
+        <hr>
+        <hr width="50" align="right">
+        <hr>
+        <h1><ins>33.1 lesson /*The progress element*/</ins></h1>
+        <h2>**Progress bar**</h2>
+        <p>The ^progress> element provides the ability to create progress bars on the web.
+            <br>The progress element can be used within headings, paragraphs, or anywhere else in the body.
+        </p>
+        <p><ins>Progress element attributes</ins></p>
+        <p><b>Value:</b> Specifies how much of the task has been completed.</p>
+        <p><b>Max:</b> Specifies how much work the task requires in total.</p>
+        <p><b>Example:</b></p>
+        <button align="left">
+            Status: ^progress min="0" max="100" value="35">
+            <br>^/progress>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        Status: <progress min="0" max="100" value="35"></progress>
+        <hr>
+        <i>Use the ^progress> tag in conjunction with javascript to dynamically display a task´s progress.</i>
+    </body>
+    <body><!--lesson 34.1-->
+        <hr>
+        <hr>
+        <h1><ins>34.1 lesson /*Web Storage API*/</ins></h1>
+        <h2>**HTML5 Web Storage**</h2>
+        <p>With HTML5 web storage, websites can store data on a user´s local computer.
+            <br>Before HTML5, we had to use <b>javascript cookies</b> to achieve this functionality.
+        </p>
+        <p><b><ins>The Advantages of Web Storage</ins></b></p>
+        <ul>
+            <li>More secure</li>
+            <li>Faster</li>
+            <li>Stores a larges amount of data</li>
+            <li>Storad data is not sent with every server request</li>
+        </ul>
+        <i>Local storage is per domain. All pages from one domain can store and access the same data.</i>
+        <h2>**Types of web storage objects**</h2>
+        <p>There are two types of web storage objects:</p>
+        <p><b>-sessionStorage()
+            <br>-localStorage()
+        </b></p>
+        <p><b>Local vs. Session</b>
+        <br>-Session Storage is destroyed once the user closes the browser
+        <br>-Local Storage stores data with no expiration date</p>
+        <i>You need to be familiar with basic javascript in order to understand and use the API.</i>
+        <h2>**Working with values**</h2>
+        <p>The syntax for web storage for both local and session storage is very simple and similar.
+            <br>The data is stored as key/ value pairs.
+        </p>
+        <p><b>Storing a Value:</b></p>
+        <button>
+            localStorage.setItem("key1", "value1");
+        </button>
+        <p><b>Getting a value:</b></p>
+        <button align="left">
+            //this will print the value
+            <br>alert(localStorage.getItem("key1"));
+        </button>
+        <p><b>Removing a value:</b></p>
+        <button>localStorage.removeItem("key1");</button>
+        <p><b>Removing all values:</b></p>
+        <button>localStorage.clear();</button>
+        <br><i>The same syntax applies to the session storage, with one difference: instead of localStorage, sessionStorage is used.</i>
+    </body>
+    <body><!--lesson 35.1-->
+        <hr>
+        <hr width="30%" align="center">
+        <hr>
+        <h1><ins>35.1 lesson /*Geolocation API*/</ins></h1>
+        <h2>**What is the Geolocation API?**</h2>
+        <p>In HTML5, the Geolocation API is used to obtain the user´s geographical location.
+            <br>
+            <br>Since this can compromise user privacy, the option is not available unless the user approves it.
+        </p>
+        <i>Geolocation is much more accurate for devices with GPS, like smartphones and the like.</i>
+        <h2>**Using HTML Geolocation**</h2>
+        <p>The Geolocation API´s main method is getCurrentPosition, which retrieves the current geographic location of the user´s device.</p>
+        <button>navigator.geolocation.getCurrentPosition():</button>
+        <br><ins>Parameters:</ins>
+        <p><b>showLocation (mandatory):</b> Defines the callback method that retrieves location information.</p>
+        <p><b>ErrorHandler(optional):</b> Defines the callback method that is invoked when an error occurs in processing the asynchronous call.</p>
+        <p><b>Options (optional):</b> Defines a set of options for retrieving the location information.</p>
+        <i>You need to be familiar with basic JavaScript in order to understand and use the API.</i>
+        <h2>**Presenting Data**</h2>
+        <p>User location can be presented in two ways: <b>Geodetic</b> and <b>Civic.</b>
+        <br>
+        <br>1. The geodetic way to describe position refers directly to latitude and longitude.
+        <br>2. The civic representation of location data is presented in a format that is more easily read and understood by the average person.
+        <br>
+        <br>Each parameter has both a geodetic and a civic representation:</p>
+        <table border="3">
+            <tr>
+                <td bgcolor="#00FF00">Attribute</td>
+                <td bgcolor="#00FF00">Geodetic</td>
+                <td bgcolor="#00FF00">Civic</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>59.3, 18.6</td>
+                <td>Stockholm</td>
+            </tr>
+            <tr>
+                <td>Elevation</td>
+                <td>10 meters</td>
+                <td>4 th floor</td>
+            </tr>
+            <tr>
+                <td>Heading</td>
+                <td>234 degrees</td>
+                <td>City center</td>
+            </tr>
+            <tr>
+                <td>Speed</td>
+                <td>5km/h</td>
+                <td>Walking</td>
+            </tr>
+            <tr>
+                <td>Orientation</td>
+                <td>45 degrees</td>
+                <td>North-East</td>
+            </tr>
+        </table>
+        <i>The getCurrentPosition() method returns an object if it is successful. The latitude, longitude, and accuracy properties are always returned.</i>
+    </body>
+    <body><!--lesson 36.1-->
+        <hr>
+        <hr>
+        <h1><ins>36.1 lesson /*Drag&Drop API*/</ins></h1>
+        <h2>**Making Elements Dtaggable**</h2>
+        <p>The drag and drop feature lets you "grab" an object and drag it to a different location.
+            <br>To make an element draggable, just set the <b>draggable</b> attribute to true:
+        </p>
+        <button>
+            ^img draggable="true" />
+        </button>
+        <br><i>Any HTML element can be draggable.</i>
+        <p>The API for HTML5 drag and drop is event-based.</p>
+        <p><b>Example:</b></p>
+        <button align="left">
+            ^!DOCTYPE HTML>
+            <br>^html>
+            <br>.....^head>
+            <br>.....^script>
+            <br>function allowDrop(ev) {
+            <br>.....ev.preventDefault();
+            <br>}
+            <br>
+            <br>function drag(ev) {
+            <br>.....ev.dataTransfer.setData("text", ev.target.id);
+            <br>}
+            <br>
+            <br>function drop(ev) {
+            <br>.....ev.preventDefault();
+            <br>.....var data = ev.dataTransfer.getData("text");
+            <br>
+            <br>ev.target.appendChild(document.getElementById(data));
+            <br>}
+            <br>.....^/script>
+            <br>.....^/head>
+            <br>body>
+            <br>
+            <br>.....^div id="box" ondrop="drop(event)"
+            <br>.....ondragover="allowDrop(event)"
+            <br>.....style="border:1px solid black; 
+            <br>.....width:200px; height:200px"></div>
+            <br>
+            <br>.....^img id="image" src="sample.jpg" draggable="true"
+            <br>.....ondragstart="drag(event)" width="150" height="50" alt="" />
+            <br>
+            <br>^/body>
+            <br>^/html>
+        </button>
+        <br><ins><b>What to Drag</b></ins>
+        <p>When the element is dragged, the <b>ondragstart</b> attribute calls a funciton,
+        drag(event), which specifies what data is to be dragged.
+        <br>The <b>dataTransfer.setData()</b> method sets the data type and the value of the dragged data:</p>
+        <button align="left">
+            function drag(ev) { 
+            <br>.....ev.daraTransfer.setData("text", ev.target.id);
+            <br>}
+        </button>
+        <p>In our example, the data type is "text" and the vale es the ID of the draggable element ("image").</p>
+        <b><ins>Where to drop</ins></b>
+        <p>The <b>ondragover</b> event specifies where the dragged data can be dropped. By default, data and elements cannot be dropped in other elements.
+         to allow a drop, we must prevent the default handling of the element.
+        <br>This is done by calling the event.<b>preventDefault></b>() method for the <b>ondragover event.</b></p>
+        <br>
+        <b><ins>Do the Drop</ins></b>
+        <p>When the dragged data is dropped, a drop event occurs.
+            <br>in the example above, the <b>ondrop</b> attribute calls a function. drop(event):
+        </p>
+        <button align="left">
+            function drop(ev) { 
+            <br>.....ev.preventDefault();
+            <br>.....var data = ev.dataTransfer.getData("text");
+            <br>
+            <br>ev.target.appendChild(document.getElementById(dara));
+            <br>}
+        </button>
+        <br><p>The <b>preventDefault()</b> method prevents the browser´s default handling of the data (default is open as link on drop).
+        <br>The dragged data can be accessed with the <b>dataTransfer.getData()</b> method.
+        <br>This method will return any data that was set to the same type in the setData() method.
+        <br>The dragged data is the ID of the dragged element ("image").</p>
+        <br><p>At the end, the dragged element is appended into the drop element, using the appendChild() function.</p>
+        <i>Basic knowledge of JavaScript is required to understand and use the API.</i>
+
+
+
+
+    </body>
+    <body><!--lesson 37.1-->
+        <hr>
+        <hr>
+        <h1><ins>37.1 lesson /*SVG*/</ins></h1>
+        <h2>**Drawing Shapes**</h2>
+        <p>SVG stands for <b>S</b>calable <b>V</b>ector <b>G</b>raphics, and is used to draw shapes with HTML-style markup.
+        <br>It offers several methods for drawing paths, boxes, circles, text, and graphic images.</p>
+        <i>SVG is not pixel-based, so it can be magnified infinitely with no loss of queality.</i>
+        <h2>**Inserting SVG images**</h2>
+        <p>An SVG image can be added to HTML code with just a basic image tag that includes a source attribute pointing to the image:</p>
+        <button>^img src="image.svg" alt="" height="300" /></button>
+        <br><i>SVG defines vector-based graphics in XML format.</i>
+        <p>**Drawing a circle**</p>
+        <p>To draw shapes with SVG, you first need to create an SVG element tag with two attributes: width and height.</p>
+        <button>svg width="1000" height="1000"^/svg></button>
+        <p>To create a circle, add a ^circle> tag:</p>
+        <button align="left">
+            ^svg width="200" height="200">
+            <br>.....^circle cx="80" cy="80" r="50" fill="green" />
+            <br>^/svg>
+        </button>
+        <hr>
+        <p align="center">----example last code-----</p>
+        <svg width="200" height="200">
+            <circle cx="80" cy="80" r="50" fill="green" />
+        </svg>
+        <hr>
+        <ul>
+            <li><b>cx</b> pushes the center of the circle further to the right of the screen</li>
+            <li><b>cy</b> pushes the center of the circle further down from the top of the screen</li>
+            <li><b>r</b> defines the radius</li>
+            <li><b>fill</b> determines the color of our circle</li>
+            <li><b>stroke</b> adds an outline to the circle</li>
+        </ul>
+        <i>Every element and every attribute in SVG files can be animated.</i>
+        <h2>**Other shape Elements**</h2>
+        <p>^rect> defines a rectangle:</p>
+        <button align="left">
+            ^svg width="200" height="200">
+            <br>.....^rect width="300" height="100" x="20" y="20" fill="green" />
+            <br>^/svg>
+        </button>
+        <p>The following code will draw a green-filled rectangle.</p>
+        <hr>
+        <p align="center">-----example last code------</p>
+        <svg wigth="200" height="200">
+            <rect width="300" height="100" x="20" y="20" fill="green" />
+        </svg>
+        <hr>
+        <p>^line> defines a line segment:</p>
+        <button align="left">
+            ^svg width="450" height="250">
+            <br>.....^line x1="10" y1="10" x2="200" y2="100" style="stroke:#000000; stroke-licecap:round; stroke-width:20" />
+            <br>^/svg>
+        </button>
+        <p>(x1, y1) define the start coordinates(x2, y2) define the end coordinates.</p>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <svg width="400" height="210">
+            <line x1="10" y1="10" x2="200" y2="100" 
+                style="stroke:#000000; stroke-linecap:round; 
+                stroke-width:20"  />
+        </svg>
+        <hr>
+        <p>^polyline> defines shapes built from multiple line definitions:</p>
+        <button align="left">
+            ^svg width="2000" height="500">
+            <br>.....^polyline style="stroke-linejoin:miter; stroke:black; stroke-width:12; fill: none;" points="100 100, 150 150, 200 100" />
+            <br>^/svg>
+        </button>
+        <p>Points are the polyline´s coordinates.
+            <br>The code below will draw a black check sign:</p>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <svg width="500" height="250">
+            <polyline style="stroke-linejoin:miter; stroke:black; 
+                stroke-width:12; fill: none;"
+                points="100 100, 150 150, 200 100" />
+        </svg>
+        <hr>
+        <i>The width and height attributes of the ^rect> element define the height and the width of the rectangle.</i>
+        <h2>**^Ellipse> and ^polygon>**</h2>
+        <b><ins>Ellipse</ins></b>
+        <p>The ^ellipse> is similar to the ^circle>, with one exception:
+            <br>You can independently change the horizontal and vertical axes of its radius, using the <b>rx</b> and <b>ry</b> attributes.
+        </p>
+        <button align="left">
+            ^svg height="500" width="500">
+            <br>.....^ellipse cx="200" cy="100" rx="150" ry="70" style="fill:green" />
+            <br>^/svg>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <svg height="500" width="500">
+            <ellipse cx="200" cy="100" rx="150" ry="70" style="fill:green" />
+         </svg>
+        <hr>
+        <b><ins>Polygon</ins></b>
+        <p>The ^polygon> element is used to create a graphic with at least three sides.
+            <br>The polygon element is unique because it automatically closes off the shape for you.
+        </p>
+        <button align="left">
+            ^svg width="2000" height="500">
+            <br>^polygon points="100 100, 200 200, 300 0" style="fill: green; stroke:black;" />
+            <br>^/svg>
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <svg width="500" height="500">
+            <polygon points="100 100, 200 200, 300 0" style="fill: green; stroke:black;" />
+        </svg>
+        <hr>
+        <i>Polygon comes form Greek. "Poly" means "many" and "gon" means "angle."</i>
+    </body>
+    <body><!--lesson 38.1-->
+        <hr>
+        <hr>
+        <h1><ins>38.1 lesson /*SVG Animations & paths*/</ins></h1>
+        <h1>**Shape Animations**</h1>
+        <p>SVG animations can be created using the ^animate> element.
+            <br>
+            <br>The example below creates a rectangle that will change its position in 3 seconds and will then repeat the animation twice:
+        </p>
+        <button align="left">
+            ^svg width="800" height="250">
+            <br>.....^rect width="150" height="150" fill="orange">
+            <br>..........^animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="2"/>
+            <br>.....^/rect>
+            <br>^/svg>
+        </button>
+        <hr>
+        <p align="left">-----example last code-----</p>
+        <svg width="1200" height="250">
+            <rect width="150" height="150" fill="orange">
+                <animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repearCount="2"/>
+            </rect>
+        </svg>
+        <hr>
+        <ul>
+            <li><b>attributeName:</b> Specifies which attribute will be affected by the animation</li>
+            <li><b>from:</b> Specifies the starting value of the attribute</li>
+            <li><b>to:</b> Specifies the ending value of the attribute</li>
+            <li><b>dur:</b> Specifies how long the animation runs (duration)</li>
+            <li><b>fill.</b> Specifies whether or not the attribute´s value should return to its initial value when the animation is finished (values: "remove" resets the value; "freeze" keeps the "to value")</li>
+            <li><b>repeatCount:</b> Specifies the repeat count of the animation</li>
+        </ul>
+        <p>In the example above, the rectangle changes its x attribute from 0 to 300 in 3 seconds.</p>
+        <i>To repeat the animation indefinitely, use the value "indefinite" for the repeatCount attribute.</i>
+        <h2>**Paths**</h2>
+        <p>The ^path> element is used to define a path.</p>
+        <ul>
+            <li>The follwing commands are available for path data:</li>
+            <li>M: moveto</li>
+            <li>L: lineto</li>
+            <li>H: horizontal lineto</li>
+            <li>v: vertical lineto</li>
+            <li>c: curveto</li>
+            <li>S: smooth curveto</li>
+            <li>Q: quadratic Bezier curve</li>
+            <li>T: smooth quadratic Bezier curveto</li>
+            <li>A: elliptical Arc</li>
+            <li>Z: closepath</li>
+        </ul>
+        <p>Define a path using the <b>d</b> attribute:</p>
+        <button align="left">
+            ^svg width="500" height="500">
+            <br>^path d="M 0 0 L200 200 L200 0 Z" style="stroke:#000; fill:none;" />
+            <br>^/svg>
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <svg width="500" height="500">
+            <path d="M 0 0 L200 200 L200 0 Z" style="stroke:#000;  fill:none;" />
+        </svg>
+        <hr>
+        <p>M places our "virtual pen" down at the position 0, 0. It them moves 200px down and to the right, then moves up to the position 200, 0. The Z command closes the shape, which results in a hypotenuse:</p>
+        <i>All of the above commands can also be expressed with lower case letters. When capital letters are used, it indicates absolute position; lower case indicates relative position.</i>
+    </body>
+    <body><!--lesson 39.1-->
+        <hr>
+        <hr>
+        <h1><ins>39.1 lesson /*Canvas*/</ins></h1>
+        <h2>**The ^canvas> Element**</h2>
+        <p>The HTML canvas is used to draw graphics that include everything from simple lines to complex graphic objects.</p>
+        <p><b>The ^canvas> element is defined by:</b></p>
+        <button>^canvas id="canvas1" width="200" height="100">^/canvas></button>
+        <br><i>The ^canvas> element is only a container for graphics. You must use a script to actually draw the graphics (usually javascript).</i>
+        <p>The ^canvas> element must have an <b>id attribute</b> so it can be referred to by javascript:</p>
+        <button align="left">
+            ^html>
+            <br>.....^head>^/head>
+            <br>.....^body>
+            <br>..........^canvas id="canvas1" width="400" height="300"/>^/canvas>
+            <br>
+            <br>.....^script>
+            <br>..........var can = document.getElementById("canvas1");
+            <br>..........var ctx = can.getContext("2d");
+            <br>.....^script>
+            <br>.....^/body>
+            <br>^/html>
+        </button>
+        <p><b>getContext()</b> returns a drawing context on the canvas.</p>
+        <i>Basic knowledge of JavaScript is required to understand and use the Canvas.</i>
+        <h2>**Canvas Coordinates**</h2>
+        <p>The HTML canvas is a two-dimensional grid.
+            <br>The upper-left corner of the canvas has the coordinates (0,0).
+            <br>
+            <br>X coordinate increases to the right.
+            <br>Y coordinate increases toward the botton of the canvas.
+        </p>
+        <i>The ^canvas> element is only a container for graphics.</i>
+        <h2>**Drawing Shapes**</h2>
+        <p>The fillRect(x,y,w,h) method draws a "filled" rectangle, in which w indicates width and h indicates height. The default fill color is black.
+            <br>A black 100*100 pixel rectangle is drawn on the canvas at the position(20,20):
+        </p>
+        <button align="left">
+            ^html>
+            <br>.....^head>^/head>
+            <br>.....^body>
+            <br>..........^canvas id="canvas1" width="400" height="300">
+            <br>..........^/canvas>
+            <br>.....^script>
+            <br>..........var c=document.getElementById("canvas1");
+            <br>..........var ctx=c.getContext("2d");
+            <br>..........ctx.fillRect(20,20,100,100);
+            <br>.....^/script>
+            <br>.....^/body>
+            <br>^/html>
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <body>
+            <canvas id="canvas1" width="400" height="300">
+            </canvas> 
+        <script>
+            var c=document.getElementById("canvas1");
+            var ctx=c.getContext("2d");
+            ctx.fillRect(20,20,100,100);
+        </script>
+        </body>
+        <hr>
+        <p>The <b>fillStyle</b> property is used to set a color, gradient, or pattern to fill the drawing.
+        <br>Using this property allows you to draw a green-filled rectangle.</p>
+        <button align="left">
+            ^html>
+            <br>.....^head>^/head>
+            <br>.....^body>
+            <br>..........^canvas id="canvas2" width="400" height="300">
+            <br>..........^/canvas>
+            <br>..........^script>
+            <br>...............var canvas=document.getElementById("canvas2");
+            <br>...............var ctx=canvas.getContext("2d");
+            <br>...............ctx.fillStyle ="rgba(0, 200, 0, 1)";
+            <br>...............ctx.fillRect (36, 10, 22, 22);
+            <br>..........^/script>
+            <br>.....^/body>
+            <br>^/html>
+        </button>
+        <hr>
+        <p align="center">-----example last code------</p>
+        <body>
+            <canvas id="canvas2" width="400" height="300">
+            </canvas> 
+            <script>
+                var canvas=document.getElementById("canvas2");
+                var ctx=canvas.getContext("2d");
+                ctx.fillStyle ="rgba(0, 200, 0, 1)";
+                ctx.fillRect (36, 10, 22, 22);
+            </script>
+        </body>
+        <hr>
+        <p>The canvas supports various other methods for drawing:
+            <br><b><ins>Draw a line</ins></b>
+            <br>moveTo(x,y): Defines the starting point of the line.
+            <br>lineTo(x,y): Defines the ending point of the line.
+            <br>
+            <br><b><ins>Draw a Circle</ins></b>
+            <br>beginPath(): Starts the drawing.
+            <br>arc(x,y,r,start,stop): Sets the parameters of the circle.
+            <br>stroke(): Ends the drawing.
+            <br>
+            <br><b><ins>Gradients</ins></b>
+            <br>createLinearGradient(x,y,x1,y1): Creates a linear gradient.
+            <br>createRadialGradient(x,y,r,x1,y1,r1): Creates a radial/circular gradient.
+            <br>
+            <br><b><ins>Drawing text on the Canvas</ins></b>
+            <br>Font: Defines the font properties for the text.
+            <br>fillTest(text,x,y): Draws "filled" text on the canvas.
+            <br>strokeText(text,x,y): Draws text on the canvas (on fill).
+        </p>
+        <i>there are many other methods aimed at helping to draw shapes and images on the canvas.</i>
+
+    </body>
+    <body><!--lesson 40.1-->
+        <hr>
+        <hr>
+        <h1><ins>40.1 lesson SVG vs. Canvas</ins></h1>
+        <h2>**Canvas vs. SVG**</h2>
+        <b><ins>Canvas</ins></b>
+        <ul>
+            <li>Elements are drawn programmatically</li>
+            <li>Drawing is done with pixels</li>
+            <li>Animations are not built in</li>
+            <li>High performance for pixels-based drawing operations</li>
+            <li>Resolution dependent</li>
+            <li>No support for event handlers</li>
+            <li>You can save the resulting image as.png or .jpg</li>
+            <li>Well suited for graphic-intensive games</li>
+        </ul>
+        <b><ins>SVG</ins></b>
+        <ul>
+            <li>Elements are part of the page´s DOM(Document object model)</li>
+            <li>Drawing is done with vectors</li>
+            <li>Effects, such as animations are built in</li>
+            <li>Based on standard XML syntax, which provides better accessibility</li>
+            <li>Resolution independent</li>
+            <li>Support for event handlers</li>
+            <li>Not suited for gamea applications</li>
+            <li>Best suited for applications with large rendering areas(for example, Google maps)</li>
+        </ul>
+        <i>You can actually use both SVG and canvas on the same page, if needed.
+            <br>However, you cannotjust draw SVG onto a canvas, or vice-versa.
+        </i>
+    </body>
+    <body><!--lesson 41.1-->
+        <hr>
+        <hr>
+        <h1><ins>41.1 lesson /*Canvas Transformations*/</ins></h1>
+        <h2>**Working with Canvas**</h2>
+        <p>The Canvas element can be transformed. As an example, a text is written on the canvas at the coordinates(10,30).</p>
+        <button align="left">
+            ^body>
+            <br>.....^canvas id="canvas3" width="400" height="300">
+            <br>.....^/canvas>
+            <br>^script>
+            <br>.....var c=document.getElementById("canvas3");
+            <br>.....var ctx=c.gerContext("2d");
+            <br>.....ctx.font="bold 22 px Tahoma";
+            <br>.....ctx.textAlign="start";
+            <br>.....ctx.fillText("start", 10, 30);
+            <br>^/script>
+            <br>^/body>
+        </button>
+        <hr>
+        <p align="center">----example last code....</p>
+        <body>
+            <canvas id="canvas3" width="400" height="300"></canvas>
+            <script>
+                var c=document.getElementById("canvas3");
+                var ctx=c.getContext("2d");
+                ctx.font="bold 22px Tahoma";
+                ctx.textAlign="start";
+                ctx.fillText("start", 10, 30);
+            </script>
+        </body>
+        <hr>
+        <p>The translate(x,y) method is used to move the Canvas.
+            <br>X indicates how far to move the grid horizontally, and Y indicates how far to move the grid vertically.
+        </p>
+        <button align="left">
+            ^body>
+            <br>.....^canvas id="canvas4" width="400" height="300">
+            <br>.....^/canvas>
+            <br>^script>
+            <br>.....^var c=document.getElementById("canvas4");
+            <br>.....^var ctx=c.getContext("2d");
+            <br>.....ctx.font="bold 22px Tahoma";
+            <br>.....ctx.textAlign="start";
+            <br>.....ctx.fillTest("start", 10, 30);
+            <br>.....ctx.translate(100, 150);
+            <br>.....ctx.fillText("after translate", 10, 30);
+            <br>^/script>
+            <br>^/body
+        </button>
+        <p>in this example, the canvas is moved 100px to the right, and 150px down.</p>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <body>
+            <canvas id="canvas4" width="400" height="300"></canvas>
+            <script>
+                var c=document.getElementById("canvas4");
+                var ctx=c.getContext("2d");
+                ctx.font="bold 22px Tahoma";
+                ctx.textAlign="start";
+                ctx.fillText("start", 10, 30);
+                ctx.translate(100, 150);
+                ctx.fillText("after translate", 10, 30);
+            </script>
+        </body>
+        <hr>
+        <i>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</i>
+        <h2>**The rotate() Method**</h2>
+        <p>The rotate() method is used to rotate the HTML5 Canvas. The value must be in radians, not degrees.
+            <br>Here is an example that draws the same rectangle before and after rotation is set:
+        </p>
+        <button align="left">
+            ^body>
+            <br>.....^canvas id="canvas5" width="400" height="300">
+            <br>.....^/canvas>
+            <br>^script>
+            <br>.....var c=document.getElementById("canvas5");
+            <br>.....var ctx=c.getContext("2d");
+            <br>.....ctx.fillStyle = "#FF0000";
+            <br>.....ctx.fillRect(10,10, 100, 100);
+            <br>
+            <br>.....ctx.rotate( (Math.PI / 180) * 25); <!--rotate 25 degrees.-->
+            <br>
+            <br>.....ctx.fillStyle = "#0000FF";
+            <br>.....ctx.fillRect(10,10, 100, 100);
+            <br>^/script>
+            <br>^/body>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <body>
+            <canvas id="canvas5" width="400" height="300">
+            </canvas> 
+        <script>
+            var c=document.getElementById("canvas5");
+            var ctx=c.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(10,10, 100, 100);
+    
+            ctx.rotate( (Math.PI / 180) * 25);  //rotate 25 degrees.
+    
+            ctx.fillStyle = "#0000FF";
+            ctx.fillRect(10,10, 100, 100);
+        </script>
+        </body>
+        <hr>
+        <i>The rotation will only affect drawings made after the rotation is done.</i>
+        <h2>**The scale() Method**</h2>
+        <p>The scale() method scales the current drawing. It takes two parameters:
+            <br>-The number of times by which the image should be scaled in the X-direction.
+            <br>-The number of times by which the image should be scaled in the Y.direction.
+        </p>
+        <button align="left">
+            ^body>
+            <br>.....^canvas id="canvas6" width="400" height="400">
+            <br>.....^/canvas>
+            <br>^script>
+            <br>.....var canvas = document.getElementById("canvas6");
+            <br>.....ctx =canvas.getContext("2d");
+            <br>.....ctx.font="bold 22px Tahoma";
+            <br>.....ctx.textAlign="start";
+            <br>.....ctx.fillText("start", 10, 30);
+            <br>.....ctx.translate(100, 150);
+            <br>.....ctx.fillText("after translate", 0, 0);
+            <br>.....ctx.rotate(1);
+            <br>.....ctx.fillText("after rotate", 0, 0);
+            <br>.....ctxscale(1.5, 4);
+            <br>.....ctx,fillText("after scale", 0,20);
+            <br>^/script>
+            <br>^/body>
+        </button>
+        <p>This will scale the canvas 1.5 times in the X-direction, and 4 times in Y-direction:</p>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <body>
+            <canvas id="canvas6" width="400" height="400">
+            </canvas> 
+        <script>
+            var canvas = document.getElementById('canvas6');
+            ctx =canvas.getContext('2d');
+            ctx.font="bold 22px Tahoma";
+            ctx.textAlign="start";
+            ctx.fillText("start", 10, 30);
+            ctx.translate(100, 150);
+            ctx.fillText("after translate", 0, 0);
+            ctx.rotate(1);
+            ctx.fillText("after rotate", 0, 0);
+            ctx.scale(1.5, 4);
+            ctx.fillText("after scale", 0,20);
+        </script>
+        </body>
+        <hr>
+        <i>If you scale a drawing, all future drawings will also be scaled.</i>
+    </body>
+    <body><!--lesson 42.1-->
+        <hr>
+        <hr>
+        <h1><ins>42.1 lesson /*HTML5 Forms, Part 1*/</ins></h1>
+        <h2>**HTML5 Forms**</h2>
+        <p>HTML5 brings many features and improvements to web form creation. There are new attributes and input types that were introduced to help create better experiences for web users.</p>
+        <br><p>Form creation is done in HTML5 the same way as it was in HTML4:</p>
+        <button align="left">
+            ^form>
+            <br>.....^label>Your name:^/label>
+            <br>.....^input id="user" name="username" type="text" />
+            <br>^/form>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <form>
+            <label>Your name:</label>
+            <input id="user" name="username" type="text" />
+        </form>
+        <hr>
+        <i>Use the novalidate attribute to avoid form validation on submissions.</i>
+        <h2>**New attributes**</h2>
+        <p>HTML5 has introduced a new attribute called <b>placeholder.</b> On ^input> and ^textarea> elements, this attribute
+        provides a hint to the user of what information can be entered into the field.</p>
+        <button align="left">
+            ^form>
+            <br>.....^label for="email">Your e-mail address: ^/label>
+            <br>.....^input type="text" name="email" placeholder="email@example.com" />
+            <br>^/form>
+        </button>
+        <hr>
+        <p align="center">-----example last code-----</p>
+        <form>
+            <label for="email">Your e-mail address: </label>
+            <input type="text" name="email" placeholder="email@example.com" />
+        </form>
+        <hr>
+        <p>The autofocus attribute makes the desired input focus when the form loads:</p>
+        <button align="left">
+            ^form>
+            <br>.....^label for="email">Your e-mail address: ^/label>
+            <br>.....^input type="text" name="email" autofocus />
+            <br>^/form>
+        </button>
+        <hr>
+        <p align="left">----example last code----</p>
+        <form>
+            <label for="email">Your e-mail address: </label>
+            <input type="text" name="email" autofocus />
+        </form>
+        <hr>
+        <i>The required attribute tells the browser that the input is required.</i>
+        <h2>**Forms with required fields**</h2>
+        <p>The "required" attribute is used to make the input elements required.</p>
+        <button align="left">
+            ^form autocomplete="off">
+            <br>.....^label for="e-mail">Your e-mail address: ^/label>
+            <br>.....^input name="Email" type="text" required />
+            <br>.....^input type="submit" value="Submit" />
+            <br>^/form>
+        </button>
+        <p>The form will not be submitted without filling in the required fields.</p>
+        <hr>
+        <p align="center">------example last code------</p>
+        <form autocomplete="off">
+            <label for="e-mail">Your e-mail address: </label>
+            <input name="Email" Type="text"required />
+            <input type="submit" value="Submit" />
+        </form>
+        <hr>
+        <i>The <b>autocomplete</b> attribute specifies whether a form or input field should have autocomplete turned on or off.
+        <br>When autocomplete is on , the browser automatically complete values based on values that the user has entered before.</i>
+        <ul>
+            <li><b><ins>HTML5 added several new input types:</ins></b></li>
+            <li>color</li>
+            <li>date</li>
+            <li>datetime</li>
+            <li>datetime-local</li>
+            <li>email</li>
+            <li>month</li>
+            <li>number</li>
+            <li>range</li>
+            <li>search</li>
+            <li>tel</li>
+            <li>time</li>
+            <li>url</li>
+            <li>week</li>
+        </ul>
+        <br>
+        <ul>
+            <li><b><ins>New input attributes in HTML5:</ins></b></li>
+            <li>autofocus</li>
+            <li>form</li>
+            <li>formaction</li>
+            <li>formenctype</li>
+            <li>formmethod</li>
+            <li>formnovalidate</li>
+            <li>formtarget</li>
+            <li>height and width</li>
+            <li>list</li>
+            <li>min and max</li>
+            <li>multiple</li>
+            <li>pattern (regexp)</li>
+            <li>placeholder</li>
+            <li>required</li>
+            <li>step</li>
+        </ul>
+        <i>input types that are not supported by old web browsers, will behave as input type text.</i>
+    </body>
+    <body><!--lesson 43.1-->
+        <hr>
+        <hr>
+        <h1><ins>43.1 lesson /*HTML5 Forms, part 2*/</ins></h1>
+        <h2>**Creating a search Box**</h2>
+        <p>The new search input type can be used to create a search box:</p>
+        <button>^input id="mysearch" name="searchitem" type="search" /></button>
+        <hr>
+        <p align="left">----example last code-----</p>
+        <input id="mysearch" name="searchitem" type="search" />
+        <hr>
+        <i>You must remember to set a name for your input; otherwise, nothing will be submitted.</i>
+        <h2>**Search Options**</h2>
+        <p>The ^datalist> tag can be used to define a list of pre-defined options for the search field:</p>
+        <button align="left">
+            ^input id="car" type="text" list="colors" />
+            <br>^datalist id="colors">
+            <br>.....^option value="Red">
+            <br>.....^option value="Green">
+            <br>.....^option value="yellow">
+            <br>^/datalist>
+        </button>
+        <hr>
+        <p align="left"></p>
+        <input id="car" type="text" list="colors" />
+        <datalist id="colors">
+            <option value="Red">
+            <option value="Green">
+            <option value="Yellow"></option>
+        </datalist>
+        <hr>
+        <p>^option> defines the options in a drop-down list for the user to select.</p>
+        <i>The ID of the datalist element must match with the list attribute of the input box.</i>
+        <h2>**Creating More Fields**</h2>
+        <p>Some other new input types include <b>email, url,</b> and <b>tel:</b></p>
+        <button align="left">
+            ^input id="email" name="email" type="email" placeholder="example@example.com" />
+            <br />^br />
+            <br>^input id="url" name="url" type="url" placeholder="example.com" />
+            <br />^br />
+            <br>^input id="tel" name="tel" type="tel" placeholder="555.555.1211" />
+        </button>
+        <hr>
+        <p align="center">----example last code----</p>
+        <input id="email" name="email" type="email" placeholder="example@example.com" />
+        <br />
+        <input id="url" name="url" type="url" placeholder="example.com" />
+        <br />
+        <input id="tel" name="tel" type="tel" placeholder="555.555.1211" />
+        <hr>
+        <p>These are especially useful when opening a page on a modern mobile device, which recognizes the input types 
+            and opens a corresponding keyboard matching the field´s type:
+        </p>
+        <i>these new types make it easier to structure and validate HTML forms.</i>
+    </body>
+</html>
